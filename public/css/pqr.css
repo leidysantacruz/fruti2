@@ -1,0 +1,42 @@
+/* Estilos para el formulario */
+.users-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+
+/* Estilos para los campos del formulario */
+label {
+    font-weight: bold;
+}
+
+select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Estilos para el botón de enviar */
+input[type="submit"] {
+    background-color: #eaf63e;
+    color: #030202;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #e6fbaa;
+}
+
+/* Estilos para el encabezado */
+h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}

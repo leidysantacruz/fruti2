@@ -1,0 +1,85 @@
+
+.profile-card {
+    max-width: 700px; /* Ajusta el valor según sea necesario */
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+
+}
+
+.profile-picture-section {
+    text-align: center;
+    padding: 20px;
+    background-color: #f4f8fc;
+}
+
+.profile-picture-container {
+    position: relative;
+    display: inline-block;
+}
+
+.profile-picture {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #fff;
+}
+
+.change-photo-icon {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: #fff;
+    padding: 8px;
+    border-radius: 0 0 8px 0;
+    cursor: pointer;
+}
+
+.change-photo-icon label {
+    cursor: pointer;
+}
+
+.form-section {
+    padding: 20px;
+}
+
+/* ... Otros estilos ... */
+
+.form-group {
+    margin-bottom: 15px;
+    display: inline-block;
+    width: calc(50% - 10px); /* Esto hará que cada grupo ocupe el 50% del ancho con un pequeño espacio entre ellos */
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #9c9b9b;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #35ea35;
+    color: #030303;
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+
+
+

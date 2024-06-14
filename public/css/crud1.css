@@ -1,0 +1,50 @@
+/* Estilos para el cuerpo de la tabla */
+.crud-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.crud-table th, .crud-table td {
+    border: 1px solid #cdcbcb;
+    padding: 8px;
+    text-align: left;
+}
+
+.crud-table th {
+    background-color: #94f52b;
+}
+
+
+.product-image {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+
+.delete-button, .edit-button {
+    background-color: #7cf436;
+    color: rgb(6, 6, 6);
+    border: none;
+    padding: 10px 10px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.edit-button {
+    background-color: #2cd031;
+    margin-right: 20px;
+
+}
+
+/* Estilo para el botón "Agregar" */
+.add-button {
+    background-color: #48f52a;
+    color: rgb(9, 9, 9);
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+

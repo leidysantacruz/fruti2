@@ -1,0 +1,60 @@
+body {
+    background-color: #f0f0f0; 
+}
+.container-dos {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px 20px;
+    background-color:  #35ea35;
+}
+
+/* Estilos del logo */
+.logo {
+    width: 100px; 
+    height: auto; 
+}
+
+/* Estilos específicos para el formulario */
+.users-form-uno {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+/* Estilos para etiquetas de texto y campos de entrada dentro del formulario */
+.users-form-uno input[type="text"],
+.users-form-uno input[type="password"],
+.users-form-uno select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Estilos para el botón de enviar dentro del formulario */
+.users-form-uno input[type="submit"] {
+    background-color: #19fd4a;
+    color: #0c0c0c;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.users-form-uno input[type="submit"]:hover {
+    background-color: #6ce31c;
+}
+
+/* Estilos para el título del formulario */
+.users-form-uno h1 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+

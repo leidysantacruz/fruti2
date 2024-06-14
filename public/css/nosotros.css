@@ -1,0 +1,17 @@
+section {
+    text-align: center;
+    width: 50%; 
+    margin: 0 auto;
+  }
+  
+  p {
+    text-align: justify;
+  }
+  
+  h1 {
+    color: #15c815;  
+  }
+  
+  .section-title {
+    color:#15c815;
+  }

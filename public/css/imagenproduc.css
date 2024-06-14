@@ -1,0 +1,24 @@
+
+/* Estilo para la imagen del producto */
+.product-image {
+    max-width: 1000px;
+   
+}
+
+/* Estilo para el mensaje de éxito */
+.alert-success {
+    background-color: #3cccf7;
+    color: #040404;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* Estilo para la imagen del usuario */
+td img {
+    width: 40px;
+    height: 40px;
+    margin-right: .5rem;
+    border-width:  1000px;
+    vertical-align: middle;
+}

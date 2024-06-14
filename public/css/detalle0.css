@@ -1,0 +1,57 @@
+
+.container-tres {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+}
+
+/* Estilos para la tarjeta dentro  del contenedor */
+.card {
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+
+
+.product-image {
+    max-width: 100%;
+    max-height: 200px; 
+    object-fit: contain; 
+}
+
+
+.product-price {
+    font-size: 30px; 
+    font-weight: bold;
+    color: #333;
+    margin: 10px 0;
+}
+
+
+.product-description {
+    font-size: 20px; 
+    color: #111010;
+    margin: 10px 0;
+    max-height: 100px; 
+    overflow-y: auto; 
+
+}
+
+
+.btn-primary-dos {
+    background-color: #41fd3a;
+    color: #0b0b0b;
+    text-decoration: none;
+    padding: 10px 10px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px;
+    width: 150px;
+    text-align: center; 
+}
+

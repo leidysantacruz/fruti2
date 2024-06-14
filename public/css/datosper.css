@@ -1,0 +1,28 @@
+.policy-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.policy-container h1 {
+    font-size: 34px;
+}
+
+.policy-container h2 {
+    font-size: 20px;
+}
+
+.policy-container p {
+    margin: 10px 0;
+}
+
+/* Estilos para las listas si es necesario */
+.policy-container ul {
+    list-style-type: decimal;
+    padding-left: 20px;
+}
+
+.policy-container li {
+    margin-bottom: 5px;
+}

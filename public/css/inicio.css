@@ -1,0 +1,193 @@
+
+/*color del nav*/
+.bg-success-light {
+    background-color: #35ea35; 
+}
+/* Estilo del botón */
+.btn-iniciar-sesion {
+    background-color: #35ea35; 
+    color: #040404; 
+}
+
+
+.btn-iniciar-sesion:hover {
+    background-color: #4ef56f; 
+    color: #090909; 
+}
+
+/*  campo de búsqueda */
+.search-input {
+    background-color: #35ea35; 
+    border: 1px solid #35ea35; 
+    border-radius: 5px; 
+}
+
+/*  icono de búsqueda */
+.search-icon-container {
+    background-color:#35ea35 ;
+    border: 1px solid #35ea35; 
+}
+
+
+.search-icon {
+    background-color: transparent; 
+    color: #fff; 
+}
+/*  texto de los elementos de navegación */
+.navbar-custom .nav-item .nav-link {
+    color: #000;
+}
+.nav-item .nav-link {
+    font-size: 18px; 
+}
+
+
+.navbar-nav .nav-item {
+    margin-right: 15px; 
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    display: none;
+}
+
+
+/* indicadores circulares */
+.carousel-indicators {
+    text-align: center; 
+    position: absolute;
+    bottom: 0; 
+    width: 100%;
+    margin-left: 0; 
+}
+
+/* indicadores individuales */
+.carousel-indicators li {
+    border: 2px solid #f8f3f3; 
+    background-color: #fff; 
+    border-radius: 50%;
+    width: 15px; 
+    height: 15px; 
+    margin: 0 5px; 
+    cursor: pointer; 
+}
+
+
+.carousel-indicators .active {
+    background-color: #35ea35; 
+}
+
+
+/* Estilo para el carrusel */
+#myCarousel {
+    width: 100%; 
+    max-height: 70vh; 
+    overflow: hidden; 
+}
+
+/* imágenes del carrusel */
+.carousel-inner .carousel-item img {
+    width: 100%; 
+    height: auto; 
+}
+
+#wave {
+    animation: wave-animation  80s ease-in-out infinite;
+    transform-origin: center;
+}
+
+
+@keyframes wave-animation {
+    0% {
+        transform: scaleY(1);
+    }
+    50% {
+        transform: scaleY(1.1); /* Aumenta la escala en la mitad de la animación */
+    }
+    100% {
+        transform: scaleY(1);
+    }
+}
+
+/*los enlaces de las políticas */
+.footer-links {
+    display: flex;
+    justify-content: center; 
+}
+
+.footer-links a {
+    text-decoration: none; 
+    color: #333; 
+    margin: 0 10px;
+}
+
+/*  la línea divisoria */
+.footer-divider {
+    border-top: 1px solid #ddd;
+    opacity: 0.5;
+    margin: 20px 0;
+    width: 80%; 
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+
+.footer-logo {
+    width: 120px; 
+    height: auto; 
+    margin-top: -24px; 
+
+}
+.version {
+    margin-right: 2px; 
+}
+
+.playstore-icon {
+    max-width: 200px; 
+    margin-top: -120px; 
+    margin-right: 200px;
+    float: right; 
+}
+
+.fixed-size-image {
+    width: 200px; 
+    height: 200px; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

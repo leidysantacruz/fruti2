@@ -1,0 +1,38 @@
+/* Estilo para los campos de entrada */
+input[type="text"],
+input[type="email"],
+textarea {
+    border-radius: 10px; 
+    padding: 10px; 
+    margin-bottom: 10px; 
+}
+
+/* Estilo para el botón */
+.btn-primary {
+    background-color: #35ea35; 
+    color: #0c0c0c; 
+    border: none; 
+    border-radius: 10px; 
+    padding: 10px 20px; 
+    cursor: pointer; 
+
+}
+
+
+.btn-primary:hover {
+    background-color: #070707;
+    background-color: #15c815; 
+
+}
+.custom-title {
+    text-align: center; 
+    color: #15c815; 
+
+}
+.img-fluid{
+    border-radius: 21px 23px 34px 30px;
+	line-height: 200px;
+	text-align: center;
+	width: 616px;
+	height: 600px;
+}

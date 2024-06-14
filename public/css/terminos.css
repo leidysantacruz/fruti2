@@ -1,0 +1,28 @@
+.terms-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.terms-container h1 {
+    font-size: 34px;
+}
+
+.terms-container h2 {
+    font-size: 20px;
+}
+
+.terms-container p {
+    margin: 10px 0;
+}
+
+/* Estilos para las listas si es necesario */
+.terms-container ul {
+    list-style-type: decimal;
+    padding-left: 20px;
+}
+
+.terms-container li {
+    margin-bottom: 5px;
+}
